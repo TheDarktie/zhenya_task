@@ -67,7 +67,7 @@ int main()
     int arr[10];
     int size = sizeof(arr) / sizeof(arr[0]);
 
-    // outputs the random seeded array values with its values' indexes
+    // outputs the random seeded array values with their values' indexes
     stats(arr, size);
     cout << " \n" << endl;
 
