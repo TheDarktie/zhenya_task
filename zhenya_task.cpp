@@ -46,7 +46,7 @@ ArrInfo smallestNumber(int arr[], int size)
     // to figure out the smallest value we need to compare the array elemets with the highest value possible which is 100.
     smallest.value = 100;
 
-    for (int iii = 1; iii < size; iii++)
+    for (int iii = 0; iii < size; iii++)
     {
         if (smallest.value > arr[iii])
         {
