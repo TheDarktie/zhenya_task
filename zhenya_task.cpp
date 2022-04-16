@@ -27,7 +27,7 @@ ArrInfo biggestNumber(int arr[], int size)
 {
     ArrInfo biggest;
 
-    for (int iii = 1; iii < size; iii++)
+    for (int iii = 0; iii < size; iii++)
     {
         if (biggest.value < arr[iii])
         {
